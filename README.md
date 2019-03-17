@@ -1,6 +1,23 @@
-# Slideshowkaroke
+# Slideshow Karoke
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
+
+## Slideshare Slides
+
+I am still pending an API key so I grab the category by scraping [SlideShare](https://www.slideshare.net/explore) using classic jQuery.
+
+```
+let i = $('.iso_slideshow_link')
+let list = []
+for(var p = 0; p <= i.length; p++) {
+  if(i[p]) list.push({...i[p].dataset, link: i[p].href})
+}
+JSON.stringify(list)
+```
+
+## Styling
+
+The spinning wheel is heavily based on [Trivia Crack Inspired - Spinning Wheel by Diogo Rodrigues de Uzeda](https://codepen.io/dioguzeda/pen/VbemqQ)
 
 ## Development server
 

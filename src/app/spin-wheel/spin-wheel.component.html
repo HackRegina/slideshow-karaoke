@@ -1,0 +1,14 @@
+<div id="wrapper">
+
+  <div id="wheel">
+    <div id="inner-wheel" [style.transform]="'rotate(' + -1*totalDegree + 'deg)'">
+      <div class="sec" *ngFor="let item of items"><span class="fa fa-{{item.icon}}"></span></div>
+    </div>
+
+    <div id="spin" [ngClass]="{'spin':flickSpinner}" (click)="spin()">
+      <div id="inner-spin"></div>
+    </div>
+
+    <div id="shine"></div>
+  </div>
+</div>
