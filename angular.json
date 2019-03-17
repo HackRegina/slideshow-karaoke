@@ -6,6 +6,7 @@
     "slideshowkaroke": {
       "root": "",
       "sourceRoot": "src",
+      "outDir": "docs",
       "projectType": "application",
       "prefix": "app",
       "schematics": {
