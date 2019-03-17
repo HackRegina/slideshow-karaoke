@@ -1,5 +1,5 @@
 {
-  "name": "slideshowkaroke",
+  "name": "slideshow-karaoke",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href \"/slideshow-karoke/\""
+    "deploy": "ng build --prod --base-href \"/slideshow-karaoke/\""
   },
   "private": true,
   "dependencies": {
