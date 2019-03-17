@@ -6,7 +6,7 @@ node_js:
 cache: yarn
 
 script: # the build step
-   - yarn run build
+   - yarn run deploy
 
 notifications:
   email: # only receive email when the build status changes (someone broke the build!)
